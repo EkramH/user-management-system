@@ -23,3 +23,25 @@ No database setup is required, making it easy to test with **Postman**.
 - Delete Account
 
 ---
+
+## 📁 Project Structure
+
+```bash
+user-management-backend/
+│
+├── src/
+│ ├── controllers/
+│ │ └── userController.js
+│ ├── routes/
+│ │ └── userRoutes.js
+│ ├── data/
+│ │ └── userData.js # In-memory user storage
+│ ├── app.js
+│
+├── package.json
+├── server.js
+├── README.md
+└── .gitignore
+```
+
+---
